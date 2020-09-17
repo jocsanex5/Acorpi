@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!--Creada y maqurada por Jocsanex5-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="decripcion" content="Contenido Exclusivo de acordes en piano y sus notas respectivas">
+    <meta name="keywords" content="Acordes, Piano, Notas">
+    <title>AcorPi</title>
+    <link rel="stylesheet" href="css/estilosAcorPi.css">
+</head>
+<body> 
+    <div class="wrapper">
+        <header>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">inicio</a></li>
+                        <li><a href="referencias.html">Referencias</a></li>
+                        <li><a href="ayuda.html">Ayuda</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section> 
+     
+            <div class="face">
+                <img class="logo" src="recursos/logo.png" width="100px">
+
+                <h1>Acorpi</h1>
+                <p>By Jocsanex5</p>
+            </div>
+
+                <img  class="piano" src="recursos/piano.png" width="100px">
+
+                <div class="videobox">
+                        <a href="#" title="Visita este canal!!!" target="_blank">
+                          <video src="recursos/video.mp4" width="200px" class="video" controls></video>       
+                        </a>   
+                </div>
+
+                <div class="h2">
+                        <h2>Acordes en Piano</h2>
+                </div>
+
+            <div class="art">
+                <article>
+                        <h2>Acordes Mayores</h2>
+                        
+                        <h3>NB + 2 tonos + 1 1/2 tonos</h3>
+
+                        <button class="n" id="do">Do</button>
+                                <button class="sos" id="dosos">Do#</button>
+                        <button class="n" id="re">Re</button>
+                                <button class="sos" id="resos">Re#</button>
+                        <button class="n" id="mi">Mi</button>
+                        <button class="n" id="fa">Fa</button>
+                                <button class="sos" id="fasos">Fa#</button>
+                        <button class="n" id="sol">Sol</button>
+                                <button class="sos" id="solsos">Sol#</button>
+                        <button class="n" id="la">La</button>
+                                <button class="sos" id="lasos">La#</button>
+                        <button class="n" id="si">Si</button>
+
+                        <div class="nts" id="acordeN">---</div>
+                </article>
+
+                <article>
+                        <h2>Acordes Menores</h2>
+                        
+                        <h3>NB + 1 1/2 tonos + 2 tonos</h3>
+
+                        <button class="m" id="dom">Dom</button>
+                                <button class="sosm" id="dososm">Do#m</button>
+                        <button class="m" id="rem">Rem</button>
+                                <button class="sosm" id="resosm">Re#m</button>
+                        <button class="m" id="mim">Mim</button>
+                        <button class="m" id="fam">Fam</button>
+                                <button class="sosm" id="fasosm">Fa#m</button>
+                        <button class="m" id="solm">Solm</button>
+                                <button class="sosm" id="solsosm">Sol#m</button>
+                        <button class="m" id="lam">Lam</button>
+                                <button class="sosm" id="lasosm">La#m</button>
+                        <button class="m" id="sim">Sim</button>
+
+                        <div class="nts" id="acordem">---</div>
+                </article>
+
+                <article>
+                        <h2>Acordes Septimos Mayores</h2>
+        
+                        <h3>NB + 2 tonos + 1 1/2 tonos + 2 tonos</h3>
+
+                        <button class="sep" id="do7">Do7</button>
+                                <button class="sossep" id="dosos7">Do#7</button>
+                        <button class="sep" id="re7">Re7</button>
+                                <button class="sossep" id="resos7">Re#7</button>
+                        <button class="sep" id="mi7">M7</button>
+                        <button class="sep" id="fa7">F7</button>
+                                <button class="sossep" id="fasos7">Fa#7</button>
+                        <button class="sep" id="sol7">Sol7</button>
+                                <button class="sossep" id="solsos7">Sol#7</button>
+                        <button class="sep" id="la7">La7</button>
+                                <button class="sossep" id="lasos7">La#7</button>
+                        <button class="sep" id="si7">Si7</button>
+
+                        <div class="nts" id="acorde7">---</div>
+                </article>
+
+                <article>
+                        <h2>Acordes Septimos Menores</h2>
+                        
+                        <h3>NB + 1 1/2 tonos + 2 tonos + 1 1/2 tonos</h3>
+
+                        <button class="sepm" id="dom7">Do7m</button>
+                                <button class="sossepm" id="dososm7">Do#7m</button>
+                        <button class="sepm" id="rem7">Re7m</button>
+                                <button class="sossepm" id="resosm7">Re#7m</button>
+                        <button class="sepm" id="mim7">M7m</button>
+                        <button class="sepm" id="fam7">F7m</button>
+                                <button class="sossepm" id="fasosm7">Fa#7m</button>
+                        <button class="sepm" id="solm7">So7m</button>
+                                <button class="sossepm" id="solsosm7">Sol#7m</button>
+                        <button class="sepm" id="lam7">La7m</button>
+                                <button class="sossepm" id="lasosm7">La#7m</button>
+                        <button class="sepm" id="sim7">Si7m</button>
+
+                        <div class="nts" id="acordem7">---</div>
+                </article>
+
+                <article>
+                        <h2>Acordes Novenos Mayores</h2>
+        
+                        <h3>NB + 1 tonos + 1 tonos + 1/2 tonos</h3>
+
+                        <button class="nov" id="do9">Do9</button>
+                                <button class="sosnov" id="dosos9">Do#9</button>
+                        <button class="nov" id="re9">Re9</button>
+                                <button class="sosnov" id="resos9">Re#9</button>
+                        <button class="nov" id="mi9">Mi9</button>
+                        <button class="nov" id="fa9">F9</button>
+                                <button class="sosnov" id="fasos9">Fa#9</button>
+                        <button class="nov" id="sol9">Sol9</button>
+                                <button class="sosnov" id="solsos9">Sol#9</button>
+                        <button class="nov" id="la9">La9</button>
+                                <button class="sosnov" id="lasos9">La#9</button>
+                        <button class="nov" id="si9">Si9</button>
+
+                        <div class="nts" id="acorde9">---</div>
+                </article>
+
+                <article>
+                        <h2>Acordes Novenos Menores</h2>
+                        
+                        <h3>NB + 1 tonos + 1/2 tonos + 2 tonos</h3>
+
+                        <button class="novm" id="dom9">Do9m</button>
+                                <button class="sosnovm" id="dososm9">Do#9m</button>
+                        <button class="novm" id="rem9">Re9m</button>
+                                <button class="sosnovm" id="resosm9">Re#9m</button>
+                        <button class="novm" id="mim9">M9m</button>
+                        <button class="novm" id="fam9">F9m</button>
+                                <button class="sosnovm" id="fasosm9">Fa#9m</button>
+                        <button class="novm" id="solm9">Sol9m</button>
+                                <button class="sosnovm" id="solsosm9">Sol#9m</button>
+                        <button class="novm" id="lam9">La9m</button>
+                                <button class="sosnovm" id="lasosm9">La#9m</button>
+                        <button class="novm" id="sim9">Si9m</button>
+
+                        <div class="nts" id="acordem9">---</div>
+                </article>
+
+                <article>
+                        <h2>Acordes Suspendidos</h2>
+                        
+                        <h3>NB + 2 1/2 tonos + 1/2 tonos</h3>
+
+                        <button class="sus" id="dosus">Dosus</button>
+                                <button class="sossus" id="dosossus">Do#sus</button>
+                        <button class="sus" id="resus">Resus</button>
+                                <button class="sossus" id="resossus">Re#sus</button>
+                        <button class="sus" id="misus">Misus</button>
+                        <button class="sus" id="fasus">Fasus</button>
+                                <button class="sossus" id="fasossus">Fa#sus</button>
+                        <button class="sus" id="solsus">Solsus</button>
+                                <button class="sossus" id="solsossus">Sol#sus</button>
+                        <button class="sus" id="lasus">Lasus</button>
+                                <button class="sossus" id="lasossus">La#sus</button>
+                        <button class="sus" id="sisus">Sisus</button>
+
+                        <div class="nts" id="acordesus">---</div>
+                </article>
+                
+        </div>    
+        </section>
+
+        <aside>
+                <p>
+                        Cada nota que compone el acorde se debe de encontrar dentro de la escala
+                        del misma nota base. Los acordes forman basicamente las estructuras musicales
+                        conociendolos podras tocar cualquier cancion!!!
+                </p>
+        </aside>
+
+        <footer>
+                Derechos reservados &copy; 2020 by Jocsanex5  
+        </footer>
+    </div>
+
+        <script src="js/mainAP.js"></script>
+</body>
+</html>
